@@ -1,0 +1,124 @@
+
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+}
+
+
+div.container {
+    margin: auto auto 30px;
+    max-width: 400px;
+    position: relative;
+}
+
+div.container>div.prev,
+div.container>div.next {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+div.container>div.prev{
+   left: 20px;
+   top: 150px;  
+   
+    
+}
+
+ #left,#right {
+	height: 50px;	
+}
+
+div.container>div.next{
+  	right: 20px;
+    top: 150px;   
+}
+
+.slider {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 400px;
+    max-width: 100%;
+}
+
+.slider>li {
+    min-width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
+
+
+hr {
+  border-top: 1px solid #9a8e8e;
+  width: 90%;
+}
+
+
+#bg{
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-y: hidden;
+	position: relative;
+	
+}
+
+.flex {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color:	#FFFFFF;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.imgParentDiv{
+	height: 35px;
+}
+.bottom img{
+	width: 50px;
+}
+.bottom{
+  left: 0;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+      padding-right: 60px;
+    padding-left: 60px;
+}
+.dayDetials div{
+	width: 60px;
+	text-align: center;
+	padding: 5px;
+}
+
+.inData{
+	list-style-type: none;
+	color:	#FFFFFF;
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 70px;
+
+}
+
+#whetherIcon{
+	width: 100px;
+}
